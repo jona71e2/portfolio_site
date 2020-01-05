@@ -1,0 +1,192 @@
+/*******GENERELLE INDSTILLINGER START**********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, Sans-Serif;
+
+
+}
+
+h1 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 2rem;
+}
+
+/*******GENERELLE INDSTILLINGER SLUT**********/
+
+/*******INDEX INDSTILLINGER START**********/
+
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/splash.svg);
+    background-size: cover;
+    background-position: 70% 100%;
+    background-repeat: no-repeat;
+}
+
+#header1 {
+    position: absolute;
+    color: #FFFFFF;
+    top: 15vw;
+    left: 23vw;
+}
+
+#header1 h1 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 7.2rem;
+
+}
+
+#header2 {
+    position: absolute;
+    color: #e3e3e3;
+    top: 110vw;
+    left: 37vw;
+}
+
+#header2 h1 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 4rem;
+    text-align: right;
+
+}
+
+
+#header3 {
+    position: absolute;
+    color: #a9a9a9;
+    top: 185vw;
+    left: 20vw;
+}
+
+#header3 h1 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 2rem;
+
+}
+
+@media only screen and (min-width: 1330px) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-image: url(billeder/splash.svg);
+        background-size: cover;
+        background-position: 70% 100%;
+        max-width: none;
+        background-repeat: no-repeat;
+    }
+
+    #header1 {
+        position: absolute;
+        color: #ffffff;
+        top: 4vw;
+        left: 56vw;
+    }
+
+    #header1 h1 {
+        font-family: Helvetica, Sans-Serif;
+        font-size: 7.2rem;
+
+    }
+
+    #header2 {
+        position: absolute;
+        color: #e3e3e3;
+        top: 28vw;
+        left: 67vw;
+    }
+
+    #header2 h1 {
+        font-family: Helvetica, Sans-Serif;
+        font-size: 4rem;
+        text-align: right;
+
+
+    }
+
+
+    #header3 {
+        position: absolute;
+        color: #a9a9a9;
+        top: 47.5vw;
+        left: 57vw;
+    }
+
+    #header3 h1 {
+        font-family: Helvetica, Sans-Serif;
+        font-size: 2rem;
+
+    }
+
+}
+
+/*******INDEX INDSTILLINGER SLUT**********/
+
+/*
+.sectionwrapper {
+    width: 100vw;
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+
+.opgave_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.opgave_wrap_reverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col_one {
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.col_two {
+    background-color: #000000;
+    width: 400px;
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.col_three {
+    background-color: #000000;
+    width: 400px;
+    height: 400px;
+}
