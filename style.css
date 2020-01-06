@@ -10,11 +10,14 @@ body {
     height: 100vh;
     font-family: Helvetica, Sans-Serif;
 
+}
 
+img {
+    width: 100%;
 }
 
 h1 {
-    font-family: Helvetica, Sans-Serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3rem;
 }
 
@@ -35,6 +38,13 @@ p {
 
 /*******GENERELLE INDSTILLINGER SLUT**********/
 
+/*******MENU INDSTILLINGER START**********/
+
+
+
+/*******MENU INDSTILLINGER SLUT**********/
+
+
 /*******INDEX INDSTILLINGER START**********/
 
 #splash {
@@ -54,8 +64,9 @@ p {
 }
 
 #header1 h1 {
-    font-family: Helvetica, Sans-Serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 7.2rem;
+    font-weight: 700;
 
 }
 
@@ -67,9 +78,10 @@ p {
 }
 
 #header2 h1 {
-    font-family: Helvetica, Sans-Serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 4rem;
     text-align: right;
+    font-weight: 400;
 
 }
 
@@ -82,8 +94,9 @@ p {
 }
 
 #header3 h1 {
-    font-family: Helvetica, Sans-Serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 2rem;
+    font-weight: 300;
 
 }
 
@@ -105,25 +118,12 @@ p {
         left: 56vw;
     }
 
-    #header1 h1 {
-        font-family: Helvetica, Sans-Serif;
-        font-size: 7.2rem;
-
-    }
 
     #header2 {
         position: absolute;
         color: #e3e3e3;
         top: 28vw;
         left: 67vw;
-    }
-
-    #header2 h1 {
-        font-family: Helvetica, Sans-Serif;
-        font-size: 4rem;
-        text-align: right;
-
-
     }
 
 
@@ -134,59 +134,98 @@ p {
         left: 57vw;
     }
 
-    #header3 h1 {
-        font-family: Helvetica, Sans-Serif;
-        font-size: 2rem;
-
-    }
-
 }
 
 /*******INDEX INDSTILLINGER SLUT**********/
 
+#portfolio {
+    background-image: url(billeder/splash.svg);
+    background-repeat: repeat-y;
+    background-position: 80% 100%;
+
+
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*
 .sectionwrapper {
     width: 100vw;
-    height: 80vh;
-    background-color: aqua;
+    height: 100vh;
+    background-image: url(billeder/splash.svg);
+    background-size: cover;
+    background-position: 30% 100%;
+    background-repeat: repeat-y;
     display: flex;
     flex-wrap: wrap;
+
 }
 */
 
-.opgave_wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.opgave_wrap_reverse {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+#header_portfolio {
+    position: relative;
+    top: 10vw;
+    left: 12vw;
 
 }
 
-.col_one {
-    background-color: #ffffff;
-    width: 400px;
-    height: 200px;
-    text-align: center;
-}
-
-.col_two {
-    background-color: #000000;
-    width: 400px;
-    height: 400px;
+#header_portfolio h1 {
     color: #ffffff;
-    text-align: center;
+
 }
 
-.col_three {
-    background-color: #000000;
-    width: 400px;
-    height: 400px;
+/*
+.task {
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #ffffff;
+
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 300px;
+    opacity: 0.8;
+    overflow: hidden;
+}
+*/
+
+
+
+#task1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(billeder/swiss_style.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+}
+
+#task2 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(billeder/dataindsamling.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+}
+
+#task3 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    height: 300px;
+    background-image: url(billeder/prototype.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+
 }
