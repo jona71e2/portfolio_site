@@ -38,6 +38,12 @@ p {
 */
 }
 
+
+/* BILLED-klasser til dokumentations */
+.mindst {
+    width: 35%;
+}
+
 .lille {
     width: 50%;
 }
@@ -363,7 +369,10 @@ p {
 }
 
 
-
+.rotate {
+    transform: rotate(90deg);
+    margin: 30px 0;
+}
 
 
 /*******DISPLAY PORTFOLIO SLUT**********/
