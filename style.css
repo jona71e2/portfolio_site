@@ -274,7 +274,7 @@ p {
 }
 
 @media only screen and (min-width: 600px) {
-    #swiss_style .col_img {
+    .col_img {
         max-height: 500px;
         overflow: scroll;
     }
@@ -367,3 +367,8 @@ p {
 
 
 /*******DISPLAY PORTFOLIO SLUT**********/
+
+/*******PROTOTYPE START**********/
+
+
+/*******PROTOTYPE SLUT**********/
