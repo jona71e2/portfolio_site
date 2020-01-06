@@ -278,6 +278,7 @@ p {
         max-height: 500px;
         overflow: scroll;
     }
+}
 
 
 
@@ -285,74 +286,84 @@ p {
 
 
 
-    /*******SWISS INDSTILLINGER SLUT**********/
+/*******SWISS INDSTILLINGER SLUT**********/
 
 
-    /*******ANIMATIONER START**********/
+/*******ANIMATIONER START**********/
 
-    .pulse {
-        animation-name: pulse;
-        animation-duration: 4s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+.pulse {
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(0.8);
+
 
     }
 
-    @keyframes pulse {
-        0% {
-            transform: scale(1.2);
-        }
-
-        50% {
-            transform: scale(0.8);
-
-
-        }
-
-        100% {
-            transform: scale(1.2);
-        }
+    100% {
+        transform: scale(1.2);
     }
+}
 
 
 
 
-    /*******ANIMATIONER SLUT**********/
+/*******ANIMATIONER SLUT**********/
 
 
-    /*******DISPLAY PORTFOLIO START**********/
+/*******DISPLAY PORTFOLIO START**********/
 
-    .display_portfolio {
-        width: 100%;
-        padding: 15px 0px 15px 0px;
-        border: solid black 3px;
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        max-width: 250px;
-    }
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .display_portfolio p {
-        margin: 0 0 0 5px;
-    }
+.display_portfolio {
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #fff;
 
-    .display_portfolio img {
-        padding-left: 5px;
-        padding-right: 5px;
-        filter: grayscale(1);
-    }
+}
 
-    .display_portfolio img:hover {
-        filter: grayscale(0.1);
-    }
+.display_portfolio p {
+    margin: 0 0 0 5px;
+}
 
-    .portfolio_opgave p {
-        text-align: center;
-    }
+.display_portfolio img {
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: grayscale(1);
+}
+
+.display_portfolio img:hover {
+    filter: grayscale(0.1);
+}
+
+.portfolio_opgave p {
+    text-align: center;
+}
 
 
 
 
 
-    /*******DISPLAY PORTFOLIO SLUT**********/
+/*******DISPLAY PORTFOLIO SLUT**********/
