@@ -54,6 +54,46 @@ p {
 
 /*******MENU INDSTILLINGER START**********/
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: block;
+    top: 5px;
+    right: 5px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 5px 16px 11px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #BA0100;
+    color: fff;
+}
+
+.active {
+    background-color: #000;
+    color: white;
+}
+
+
+
 
 
 /*******MENU INDSTILLINGER SLUT**********/
@@ -158,6 +198,8 @@ p {
     background-image: url(billeder/splash.svg);
     background-repeat: repeat-y;
     background-position: 80% 100%;
+    padding-bottom: 300px;
+    padding-top: 40px;
 
 
 }
@@ -179,6 +221,7 @@ p {
     color: #ffffff;
     text-align: center;
     font-size: 4rem;
+    margin-top: 0;
 
 
 }
@@ -274,6 +317,15 @@ p {
     padding: 2rem;
     max-width: 400px;
 }
+
+
+.col_frame {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2rem;
+    max-width: 600px;
+}
+
 
 .col_img img {
     padding: 10px 0;
@@ -377,7 +429,16 @@ p {
 
 /*******DISPLAY PORTFOLIO SLUT**********/
 
-/*******PROTOTYPE START**********/
+/*******REDESIGN START**********/
+
+#video {
+    padding: 2rem;
+
+}
+
+.video_style {
+    margin-top: 10px;
+}
 
 
-/*******PROTOTYPE SLUT**********/
+/*******REDESIGN SLUT**********/
