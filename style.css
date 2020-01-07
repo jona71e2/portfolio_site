@@ -31,11 +31,9 @@ h3 {
 }
 
 p {
-    font-family: 'Roboto Condensed', sans-serif;
-    /*
-    font-size: 3rem;
-    color: white;
-*/
+    font-family: 'Karma', serif;
+    font-size: 14px;
+    color: #000000;
 }
 
 
@@ -57,7 +55,6 @@ p {
 .topnav {
     overflow: hidden;
     background-color: #333;
-    position: block;
     top: 5px;
     right: 5px;
 }
@@ -84,7 +81,6 @@ p {
 
 .topnav a:hover {
     background-color: #BA0100;
-    color: fff;
 }
 
 .active {
@@ -168,7 +164,7 @@ p {
     #header1 {
         position: absolute;
         color: #ffffff;
-        top: 4vw;
+        top: 5vw;
         left: 56vw;
     }
 
@@ -176,16 +172,16 @@ p {
     #header2 {
         position: absolute;
         color: #e3e3e3;
-        top: 28vw;
-        left: 67vw;
+        top: 30vw;
+        left: 65vw;
     }
 
 
     #header3 {
         position: absolute;
         color: #a9a9a9;
-        top: 47.5vw;
-        left: 57vw;
+        top: 49vw;
+        left: 53vw;
     }
 
 }
@@ -194,6 +190,7 @@ p {
 
 /*******PORTFOLIO INDSTILLINGER START**********/
 
+/*
 #portfolio {
     background-image: url(billeder/splash.svg);
     background-repeat: repeat-y;
@@ -222,11 +219,12 @@ p {
     text-align: center;
     font-size: 4rem;
     margin-top: 0;
+*/
 
-
-}
 
 /*
+}
+
 .task {
     flex-grow: 1;
     flex-basis: 300px;
@@ -240,6 +238,7 @@ p {
 }
 */
 
+/*
 #task1 {
     flex-grow: 1;
     flex-basis: 300px;
@@ -292,10 +291,58 @@ p {
     filter: grayscale(80%);
 
 }
+*/
 
 /*******PORTFOLIO INDSTILLINGER SLUT**********/
 
 /*******SWISS INDSTILLINGER START**********/
+
+/*
+#swiss_style {
+    background-image: url(billeder/splash.svg);
+    background-repeat: repeat-y;
+    background-position: 72% 100%;
+    padding-bottom: 300px;
+    padding-top: 40px;
+
+}
+*/
+
+#swiss_style h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#swiss_style h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#swiss_style h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
 
 .wrapper {
     display: flex;
@@ -309,6 +356,7 @@ p {
     padding: 2rem;
     max-width: 400px;
 
+
 }
 
 .col_img {
@@ -316,6 +364,7 @@ p {
     flex-basis: 300px;
     padding: 2rem;
     max-width: 400px;
+
 }
 
 
@@ -345,6 +394,249 @@ p {
 
 
 /*******SWISS INDSTILLINGER SLUT**********/
+
+/*******DATA INDSTILLINGER START**********/
+
+#dataindsamling h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#dataindsamling h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#dataindsamling h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+
+/*******DATA INDSTILLINGER SLUT**********/
+
+/*******PROTOTYPE INDSTILLINGER START**********/
+
+#prototype h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#prototype h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#prototype h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/*******PROTOTYPE INDSTILLINGER SLUT**********/
+
+/*******DESIGN SPRINT INDSTILLINGER START**********/
+
+#design_sprint h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#design_sprint h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#design_sprint h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/*******DESIGN SPRINT SLUT**********/
+
+/*******ASSET INDSTILLINGER START**********/
+
+#asset h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#asset h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#asset h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/*******ASSET SLUT**********/
+
+/*******SPIL INDSTILLINGER START**********/
+
+#spil h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#spil h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#spil h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/*******SPIL SLUT**********/
+
+/*******DELING INDSTILLINGER START**********/
+
+#deling h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#deling h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#deling h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+/*******DELING SLUT**********/
+
+
 
 
 /*******ANIMATIONER START**********/
@@ -387,6 +679,26 @@ p {
     justify-content: center;
 }
 
+#portfolio {
+    background-image: url(billeder/splash.svg);
+    background-repeat: repeat-y;
+    background-position: 72% 100%;
+    padding-bottom: 300px;
+    padding-top: 40px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    #portfolio {
+        background-image: url(billeder/splash.svg);
+        background-repeat: repeat-y;
+        background-position: 95% 100%;
+        padding-bottom: 300px;
+        padding-top: 40px;
+
+    }
+}
+
 .display_portfolio {
     width: 100%;
     padding: 15px 0px 15px 0px;
@@ -417,7 +729,7 @@ p {
 }
 
 .portfolio_opgave p {
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -426,10 +738,96 @@ p {
     margin: 30px 0;
 }
 
+#portfolio h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#portfolio h1:hover {
+    -webkit-text-stroke: 3px #BA0100;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.display_portfolio h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+}
+
+.display_portfolio h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.display_portfolio h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+
 
 /*******DISPLAY PORTFOLIO SLUT**********/
 
 /*******REDESIGN START**********/
+
+#redesign h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#redesign h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#redesign h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
 
 #video {
     padding: 2rem;
