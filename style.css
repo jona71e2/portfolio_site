@@ -36,6 +36,14 @@ p {
     color: #000000;
 }
 
+ul {
+    font-family: 'Karma', serif;
+    font-size: 16px;
+    color: #636363;
+
+}
+
+
 
 /* BILLED-klasser til dokumentations */
 .mindst {
@@ -77,6 +85,7 @@ p {
     position: absolute;
     right: 0;
     top: 0;
+    padding-bottom: 5px;
 }
 
 .topnav a:hover {
@@ -109,7 +118,7 @@ p {
 #header1 {
     position: absolute;
     color: #FFFFFF;
-    top: 15vw;
+    top: 17vw;
     left: 23vw;
 }
 
@@ -122,7 +131,7 @@ p {
 
 #header2 {
     position: absolute;
-    top: 110vw;
+    top: 115vw;
     left: 37vw;
     color: #e3e3e3;
 }
@@ -139,7 +148,7 @@ p {
 #header3 {
     position: absolute;
     color: #a9a9a9;
-    top: 185vw;
+    top: 187vw;
     left: 20vw;
 }
 
@@ -188,125 +197,9 @@ p {
 
 /*******INDEX INDSTILLINGER SLUT**********/
 
-/*******PORTFOLIO INDSTILLINGER START**********/
-
-/*
-#portfolio {
-    background-image: url(billeder/splash.svg);
-    background-repeat: repeat-y;
-    background-position: 80% 100%;
-    padding-bottom: 300px;
-    padding-top: 40px;
-
-
-}
-
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-#header_portfolio {
-    position: relative;
-    top: 10vw;
-    left: 12vw;
-
-}
-
-#portfolio h1 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 0;
-*/
-
-
-/*
-}
-
-.task {
-    flex-grow: 1;
-    flex-basis: 300px;
-    background-color: #ffffff;
-
-    margin: 10px 30px;
-    border-radius: 10px;
-    height: 300px;
-    opacity: 0.8;
-    overflow: hidden;
-}
-*/
-
-/*
-#task1 {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 10px 30px;
-    border-radius: 10px;
-    height: 300px;
-    background-image: url(billeder/swiss_style.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 70% 100%;
-    filter: grayscale(80%);
-}
-
-#task1:hover {
-    filter: grayscale(0%);
-}
-
-#task2:hover {
-    filter: grayscale(0%);
-}
-
-#task3:hover {
-    filter: grayscale(0%);
-}
-
-
-#task2 {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 10px 30px;
-    border-radius: 10px;
-    height: 300px;
-    background-image: url(billeder/dataindsamling.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 70% 100%;
-    filter: grayscale(80%);
-}
-
-#task3 {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 10px 30px;
-    border-radius: 10px;
-    height: 300px;
-    background-image: url(billeder/prototype2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 10%;
-    filter: grayscale(80%);
-
-}
-*/
-
-/*******PORTFOLIO INDSTILLINGER SLUT**********/
 
 /*******SWISS INDSTILLINGER START**********/
 
-/*
-#swiss_style {
-    background-image: url(billeder/splash.svg);
-    background-repeat: repeat-y;
-    background-position: 72% 100%;
-    padding-bottom: 300px;
-    padding-top: 40px;
-
-}
-*/
 
 #swiss_style h3 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -355,7 +248,6 @@ p {
     flex-basis: 300px;
     padding: 2rem;
     max-width: 400px;
-
 
 }
 
@@ -512,7 +404,6 @@ p {
     margin-left: 5px;
     text-align: center;
 }
-
 
 /*******DESIGN SPRINT SLUT**********/
 
@@ -840,3 +731,99 @@ p {
 
 
 /*******REDESIGN SLUT**********/
+
+/*******OM START**********/
+
+#om_mig {
+    background-image: url(billeder/splash.svg);
+    background-repeat: repeat-y;
+    background-position: 85% 100%;
+    padding-bottom: 10px;
+    padding-top: 40px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    #om_mig {
+        background-image: url(billeder/splash.svg);
+        background-repeat: repeat-y;
+        background-position: 0% 100%;
+        padding-bottom: 10px;
+        padding-top: 40px;
+
+    }
+}
+
+.om_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.txt_om {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2rem;
+    margin: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+}
+
+.img_om {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2rem;
+    width: 400px;
+
+}
+
+.img_om img {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+
+#om_mig h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #BA0100;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+#om_mig h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#om_mig h1:hover {
+    -webkit-text-stroke: 3px #BA0100;
+    -webkit-text-fill-color: #ffffff;
+}
+
+#om_mig h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 27px;
+    color: #636363;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+/*******OM SLUT**********/
